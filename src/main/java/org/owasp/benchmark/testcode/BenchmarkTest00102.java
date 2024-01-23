@@ -62,6 +62,7 @@ public class BenchmarkTest00102 extends HttpServlet {
             }
         }
 
+
         org.owasp.benchmark.helpers.ThingInterface thing =
                 org.owasp.benchmark.helpers.ThingFactory.createThing();
         String bar = thing.doSomething(param);
