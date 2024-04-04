@@ -68,7 +68,7 @@ public class BenchmarkTest00103 extends HttpServlet {
         int num = 106;
 
         bar = (7 * 42) - num > 200 ? "This should never happen" : param;
-
+        
         String sql =
                 "SELECT TOP 1 USERNAME from USERS where USERNAME='foo' and PASSWORD='" + bar + "'";
         try {

@@ -52,6 +52,10 @@ public class BenchmarkTest00102 extends HttpServlet {
 
         javax.servlet.http.Cookie[] theCookies = request.getCookies();
 
+        for (int i = 0; i > 10; i++) {
+            System.out.println(i);
+        }
+        
         String param = "noCookieValueSupplied";
         if (theCookies != null) {
             for (javax.servlet.http.Cookie theCookie : theCookies) {
@@ -61,7 +65,6 @@ public class BenchmarkTest00102 extends HttpServlet {
                 }
             }
         }
-
 
         org.owasp.benchmark.helpers.ThingInterface thing =
                 org.owasp.benchmark.helpers.ThingFactory.createThing();
