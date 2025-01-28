@@ -15,3 +15,5 @@ tools/Contrast/contrast.jar
 tools/Contrast/contrast.yaml
 tools/Contrast/working/
 
+.sonarlint/connectedMode.json
+.vscode/settings.json
